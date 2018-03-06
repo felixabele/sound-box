@@ -3,3 +3,4 @@ public/bundle.js
 card/
 resources.txt
 .env
+.DS_Store
