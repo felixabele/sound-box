@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "playlistId": "spotify:album:0wiWTpgn5hPTNtTFFWPfjl"
+    },
+    {
+      "id": 2,
+      "playlistId": "spotify:album:2fAA87YxwDh8sofZrwz6Wd"
+    },
+    {
+      "id": 3,
+      "playlistId": "spotify:album:0wiWTpgn5hPTNtTFFWPfjl"
+    }
+  ]
+}

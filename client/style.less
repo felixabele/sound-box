@@ -1,0 +1,77 @@
+@accent-color: #648F00;
+@error-color: #FB654A;
+@secondary-text-color: #c1c1c1;
+
+.item {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  padding-top: 80px;
+}
+
+.nav-tabs li {
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+// let the real CSS begin
+.spotify-login {
+  h1 {
+    background-color: @accent-color;
+    color: #fff;
+    padding: 20px 50px;
+  }
+  .page-content {
+    padding: 10px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .login {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    .login-btn .spotify-btn {
+      .main {
+        fill: @accent-color;
+      }
+      &:hover .main {
+        fill: black;
+      }
+    }
+  }
+  .error {
+    color: @error-color;
+    &, h2 { font-weight: bold; }
+  }
+  .user {
+    .user-content {
+      display: flex;
+      align-items: center;
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      ul {
+        li {
+          display: flex;
+          padding: 3px 0px;
+          span:first-child {
+            width: 150px;
+            text-align: right;
+            margin-right: 20px;
+          }
+          span:last-child {
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}
